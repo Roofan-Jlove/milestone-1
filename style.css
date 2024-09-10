@@ -1,0 +1,77 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #b6a0a0;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    text-align: center;
+    color: #7c1010;
+}
+p {
+    text-align: center;
+    /* color: black;? */
+    color: #431515;
+    font-size: large;
+    font-weight: 600;
+}
+
+form {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #e1d2d2;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+fieldset {
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 1px solid #cf0505;
+}
+
+legend {
+    font-weight: bold;
+    color: #cf0505;
+}
+
+label {
+    display: block;
+    /* margin-top: 1px; */
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+input, select, textarea {
+    width: 97%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 3px solid #ccc;
+    border-radius: 10px;
+}
+
+input[type="submit"] {
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+#resume-output {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    display: none;
+}
+
+#resume-output h2 {
+    text-align: center;
+    color: #333;
+}
