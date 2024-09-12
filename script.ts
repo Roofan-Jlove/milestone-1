@@ -44,3 +44,15 @@ function displayResume() {
         resumeOutput.style.display = 'block';
     }
 }
+function loadImage(event: Event): void {
+    const input = event.target as HTMLInputElement;
+    if (input.files && input.files[0]) {
+        const reader = new FileReader();
+        reader.onload = function(e) {
+            const img = document.getElementById('profileImage') as HTMLImageElement;
+            img.src = e.target?.result as string;
+        };
+        reader.readAsDataURL(input.files[0]);
+    }
+}
+

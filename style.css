@@ -75,3 +75,10 @@ input[type="submit"]:hover {
     text-align: center;
     color: #333;
 }
+#profileImage {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+

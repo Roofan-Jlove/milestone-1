@@ -24,3 +24,15 @@ function displayResume() {
         resumeOutput.style.display = 'block';
     }
 }
+function loadImage(event) {
+    var input = event.target;
+    if (input.files && input.files[0]) {
+        var reader = new FileReader();
+        reader.onload = function (e) {
+            var _a;
+            var img = document.getElementById('profileImage');
+            img.src = (_a = e.target) === null || _a === void 0 ? void 0 : _a.result;
+        };
+        reader.readAsDataURL(input.files[0]);
+    }
+}
