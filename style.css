@@ -28,7 +28,7 @@ form {
 fieldset {
     margin-bottom: 20px;
     padding: 10px;
-    border: 1px solid #cf0505;
+    border: 1px solid #f10e0e;
 }
 
 legend {
@@ -66,14 +66,14 @@ input[type="submit"]:hover {
     max-width: 600px;
     margin: 20px auto;
     padding: 20px;
-    background-color: #fff;
+    background-color: #e1d2d2;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     display: none;
 }
 
 #resume-output h2 {
     text-align: center;
-    color: #333;
+    color: #333333;
 }
 #profileImage {
     width: 150px;
